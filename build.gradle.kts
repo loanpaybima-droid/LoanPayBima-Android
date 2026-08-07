@@ -18,6 +18,26 @@ android {
     buildFeatures {
         viewBinding = true
     }
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "in.loanpaybima.app"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "in.loanpaybima.app"
+        minSdk = 26
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0.0"
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
