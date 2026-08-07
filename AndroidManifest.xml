@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:label="LoanPayBima" android:theme="@style/Theme.LoanPayBima">
+        <activity android:name=".WebActivity"/>
+        <activity android:name=".DashboardActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RoleActivity"/>
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

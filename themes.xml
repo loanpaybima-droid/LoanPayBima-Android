@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.LoanPayBima" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorSecondary">@color/brand_gold</item>
+        <item name="android:statusBarColor">@color/brand_blue</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+</resources>
