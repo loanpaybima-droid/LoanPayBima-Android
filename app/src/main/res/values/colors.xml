@@ -1,0 +1,10 @@
+<resources>
+    <color name="brand_blue">#0759B5</color>
+    <color name="brand_blue_dark">#063E80</color>
+    <color name="brand_green">#0A9747</color>
+    <color name="brand_gold">#FFC21C</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F4F7FB</color>
+    <color name="text_primary">#14213D</color>
+    <color name="text_secondary">#64748B</color>
+</resources>

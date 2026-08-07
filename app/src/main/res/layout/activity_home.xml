@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="82dp"
+            android:src="@drawable/loanpaybima_logo"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_hero"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insurance on EMI"
+                android:textColor="@color/surface"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Car, Bike aur Commercial Vehicle insurance assistance"
+                android:textColor="#EAF3FF"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/emiBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Get Started"
+                android:textColor="#111111"
+                app:backgroundTint="@color/brand_gold"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/carBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:text="Car Insurance"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bikeBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Bike Insurance"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cvBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Commercial Vehicle Insurance"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/healthBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Health Insurance"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/termBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Term Insurance"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/customerPaymentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:text="Pay Customer Service Fee"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/websiteBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="Open LoanPayBima Website"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/whatsappBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:text="WhatsApp Support"
+            app:backgroundTint="@color/brand_green"/>
+    </LinearLayout>
+</ScrollView>
